@@ -1,0 +1,24 @@
+body{
+    text-align: center;
+    background-image: url("https://images.axios.com/qozklaNocIw-kOa2NXhDuQ_i2Jw=/0x0:5760x3240/1920x1080/2018/06/28/1530195505707.jpg");
+  }
+
+  h3 { 
+    text-align: center;
+  }
+
+
+  hr {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    height: 1px;
+    background-color:rgb(168, 93, 93);
+    }
+
+
+    #win-lose {
+        font-weight: bold;
+        font-size: 3.5em;
+        color: rgb(6, 9, 12);
+    }
