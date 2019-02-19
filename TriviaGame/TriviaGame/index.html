@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    
+
+<!-- Links to CSS sheet  -->
+
+<link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+    
+</head>
+
+
+<body>
+
+<!-- Links to Bootstrap and Jquery  -->
+
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet"/>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+
+
+<!-- Opening Screen with Bootstrap Button  -->
+<div class = "header">
+    <h1>NYC Architecture Trivia</h1>
+    <button type="button" id="start" class="btn btn-success">Start Quiz</button>
+</div>
+
+
+<!--H tag to hold the questions and radio multiple choice buttons using Bootstrap  -->
+<div class="jumbotron">
+
+    <h1 class="display-3"id="question">Show the question here</h3>
+    
+    <div id="img"></div>
+    <hr>
+    <div class id="form"></div>
+
+    <!-- Timer Countdown  -->
+    <div class="left timer">
+            <div class="container">TIME: <span></span></div>
+          </div>
+
+    <!-- Finished/Next Button  -->
+<button type="button" id="next" class="btn btn-success">Next</button>
+<br>
+   
+    
+</div>
+
+
+
+<!-- Results  -->
+<div id="result"></div>
+
+<br>
+
+<!-- Score  -->
+<div class = "score">
+    <div id="win-lose"></div>
+    <div id="result-right"></div>
+    <div id="result-wrong"></div>
+</div>
+
+<script src="assets/javascript/app.js"></script>
+
+
+</head>
+</body>
+</html>
